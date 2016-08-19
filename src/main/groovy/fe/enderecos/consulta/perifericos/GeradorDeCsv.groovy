@@ -15,7 +15,7 @@ class GeradorDeCsv {
     }
 
     private escreverCabecalho(Writer out) {
-        out.println("Cidade;Bairro;Tipo Logradouro;Logradouro;Numero;Latitude;Longitude")
+        out.println("ID;Cidade;Bairro;Tipo Logradouro;Logradouro;Numero;Latitude;Longitude")
     }
 
     private escreverLinha(Writer out, LinhaDoArquivo l) {
