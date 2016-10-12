@@ -19,7 +19,7 @@ class LeitorDeCsv {
 
             csv.iterator().each { record ->
                 linhas << new LinhaDoArquivo(
-                        id: record."ID",
+                        id: record."Id",
                         cidade: record."Cidade",
                         logradouro: record."Logradouro" - "Rua ",
                         tipoDeLogradouro: record."Tipo Logradouro",
